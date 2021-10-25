@@ -2,16 +2,36 @@ body {
   font-family: sans-serif;
 }
 
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 8px 16px;
+  outline: none;
+}
+
 .input-area {
   background-color: #a9f1f1;
   width: 400px;
   height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 
 .incomplete-area {
   background-color: #dbd935;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 
 .complete-area {
   background-color: darkgrey;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
