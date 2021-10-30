@@ -9,6 +9,22 @@ input {
   outline: none;
 }
 
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #df00f359;
+  color: #fff;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
+}
+
 .input-area {
   background-color: #a9f1f1;
   width: 400px;
@@ -34,4 +50,17 @@ input {
   padding: 8px;
   margin: 8px;
   border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
